@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+//update function 
+void update(int *a,int *b) {    
+//Storing values 
+    int tempa = *a;
+    int tempb = *b;
+    //addition 
+    *a= *a+ *b;
+    //Subtraction with absolute
+    *b= abs(tempa- tempb);
+}
+//main function
+int main() {
+    int a, b;
+    int *pa = &a, *pb = &b;
+    //inputting values
+    scanf("%d %d", &a, &b);
+    //calling the function
+    update(pa, pb);
+    //output the values of function
+    printf("%d\n%d", a, b);
+
+    return 0;
+}
