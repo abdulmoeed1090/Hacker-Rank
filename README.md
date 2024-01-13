@@ -1,2 +1,3 @@
 # Hacker-Rank
-In this challenge, we use a for loop to increment a variable through a range.  Input Format
+These are the questions in hacker rank in introduction of c++
+
